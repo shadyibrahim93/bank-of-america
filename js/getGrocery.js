@@ -2,10 +2,10 @@ $(document).ready(function()
 {
     
     // Identifying the Variable
-    var displayResources = $('#display-grocery');
+    var displayGrocery = $('#display-grocery');
     
     // Doing Something While Script Loads Information
-    displayResources.html('<img src="/image/pre-loading.gif" alt="Loading Image - Progress" title="Loading Image - Progress">');
+    displayGrocery.html('<img src="/image/pre-loading.gif" alt="Loading Image - Progress" title="Loading Image - Progress">');
     
     // Getting the Json File Data
     $.ajax(
@@ -32,7 +32,7 @@ $(document).ready(function()
 
             output += "</div>";
             // Printing the Information on the Screen
-            displayResources.html(output);
+            displayGrocery.html(output);
         }, 9000); // 9000
             
         }, 

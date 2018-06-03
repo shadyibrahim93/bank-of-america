@@ -72,10 +72,6 @@ li {
   padding-bottom: 10px;
 }
 
-.product-container:nth-child(4n) {
-  margin: 0px 0px 0px 0px !important;
-}
-
 /* Start Screen Size of 1025px or more CSS */
 @media only screen and (min-width: 1025px) {
   .store {
@@ -91,6 +87,9 @@ li {
     width: 21%;
     float: left;
     margin: 0px 20px 20px 0px;
+  }
+  .product-container:nth-child(4n) {
+    margin: 0px 0px 0px 0px !important;
   }
 }
 /* End Screen Size of 1025px or more Code CSS*/
@@ -111,6 +110,9 @@ li {
     width: 21%;
     float: left;
     margin: 0px 20px 20px 0px;
+  }
+  .product-container:nth-child(4n) {
+    margin: 0px 0px 0px 0px !important;
   }
 }
 /* End Screen Size Between 768px and 1024px CSS*/

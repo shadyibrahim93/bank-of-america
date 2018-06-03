@@ -85,8 +85,8 @@ li {
 }
 
 /* Removing Margin From the Right Side To Even Out the Design */
-.product-container:nth-child(4n){
-    margin: 0px !important;
+.product-container:nth-child(4n) {
+  margin: 0px 0px 20px 0px;
 }
 
 /* Start Screen Size of 1025px or more CSS */
@@ -107,7 +107,6 @@ li {
   }
 }
 /* End Screen Size of 1025px or more Code CSS*/
-
 /* Start Screen Size Between 768px and 1024px CSS*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .store {
@@ -127,7 +126,6 @@ li {
   }
 }
 /* End Screen Size Between 768px and 1024px CSS*/
-
 /* Start Screen Size of 767px or less CSS*/
 @media only screen and (max-width: 767px) {
   body {
@@ -144,7 +142,6 @@ li {
   }
 }
 /* End Screen Size of 767px or less CSS*/
-
 /* Start Animations CSS*/
 .animated {
   animation-duration: 2s;
@@ -180,4 +177,5 @@ li {
 .flashing {
   animation-name: flashing;
 }
+
 /* End Animations CSS */
